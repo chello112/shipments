@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.th,
+.td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.th {
+  background-color: rgb(56, 109, 140);
+}
+
+.td {
+  background-color: rgb(177, 182, 184);
+}
+
+.editDetailsBtn {
+  margin: 1px;
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+.deleteBtn {
+  margin: 1px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.deleteBtn {
+  margin: 1px;
+  width: auto;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
