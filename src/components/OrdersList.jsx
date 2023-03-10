@@ -11,7 +11,7 @@ const OrdersList = ({ order, deleteHandler }) => {
         <td className="td">{order.trackingNo}</td>
         <td className="td">{order.status}</td>
         <td className="td">{order.consignee}</td>
-        <td>
+        <td className="td">
           <EditOrder
             orderNo={order.orderNo}
             date={order.date}

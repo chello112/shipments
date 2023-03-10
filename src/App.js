@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <Dashboard />
-      {/*  <Table /> */}
+      {/* <Table /> */}
       <ToastContainer position="top-center" />
     </div>
   );
